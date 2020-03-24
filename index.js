@@ -13,10 +13,10 @@ const tutorials = [
 
 const titleCased = () => {
   return tutorials
-  const titledTutorials = tutorials.map(tutorial => {
-    let splitString = tutorial.split(' ')
-    let newSentence = splitString.map(word => word.charAt(0).toUpperCase() + word.slice(1))
-    let titledTutorial = newSentence.join(' ')
-  })
-  return titledTutorials
+  function titleCased() {
+  return tutorials.map(tutorial =>
+    tutorial.split(" ").map(word =>
+      word[0].toUpperCase() + word.slice(1)
+    ).join(" ")
+  )
 }
