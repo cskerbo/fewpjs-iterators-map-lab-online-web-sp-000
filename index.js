@@ -15,7 +15,7 @@ const titleCased = () => {
   return tutorials
   const titledTutorials = tutorials.map(tutorial => {
     let splitString = tutorial.split(' ')
-    let newSentence = splitString.map(word => word.charAt(0).toUpperCase())
+    let newSentence = splitString.map(word => word.charAt(0).toUpperCase() + word.slice(1))
     console.log(newSentence)
   })
 }
