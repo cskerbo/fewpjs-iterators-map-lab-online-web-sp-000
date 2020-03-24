@@ -20,7 +20,3 @@ const titleCased = () => {
   })
   return titledTutorials
 }
-
-
-  console.log(newSentence)
-})
