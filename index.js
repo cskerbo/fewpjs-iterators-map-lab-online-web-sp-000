@@ -14,6 +14,6 @@ const tutorials = [
 const titleCased = tutorials.map(function(tutorial) {
   splitString = tutorial.split(' ')
   newSentence = splitString.map(word => word.titleCased)
-  console.log(test)
+  console.log(newSentence)
   return tutorials
 })
