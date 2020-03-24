@@ -19,4 +19,3 @@ const titleCased = () => {
   })
   return titledTutorials
 }
-
